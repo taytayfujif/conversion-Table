@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Conversion table</title>
+</head>
+<body>
+<h1> Conversions table </h1>
+<script type="text/javascript">
+
+var f = Number(20)
+
+
+document.write("<table border=\"1\">");
+document.write("<tr><td>Fahrenheit</td><td>Celsius</td></tr>");
+while (f >= 20 && f <= 120)
+	{
+		c = ((f-32)/1.8); 
+				{
+					 document.write("<tr><td>" + f + "</td><td>" + c + "</td></tr>\n");
+				}
+		f = (f + 5);
+	}
+	document.write("</table>");
+	
+</script>
+</body>
+</html>
+
+
+
